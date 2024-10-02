@@ -95,6 +95,7 @@ h1{
     align-items: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
 .infor_sobreMi article{
     width: 1136px;
@@ -118,4 +119,101 @@ h1{
     font-size: 16px;
     line-height: 18.78px;
     padding: 10px 0;
+    font-family: "Raleway";
+}
+.infor_skills{
+    font-family: "Raleway";
+}
+.infor_skills h2{
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    margin-bottom: 40px;
+
+}
+.skills_lenguajes{
+    width: 1136px;
+    height: 244px;
+    gap: 8px;
+    display: flex;
+    margin: auto;
+
+}
+.lenguajes{
+    background-color: #FFFFFF;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    position: relative;
+}
+.lenguajes h3{
+    background-color: #FFFFFF;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    bottom: 0;
+    padding-bottom: 15px;
+    width: 144px;
+    height: 19px;
+}
+.lenguajes img{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 18.78px;
+    bottom: 0;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+}
+
+
+.infor_hobbies{
+    font-family: "Raleway";
+}
+.infor_hobbies h2{
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    margin-bottom: 40px;
+
+}
+.Hobbies_pasion{
+    width: 1136px;
+    height: 244px;
+    gap: 8px;
+    display: flex;
+    margin: auto;
+
+}
+.pasion{
+    background-color: #FFFFFF;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    position: relative;
+}
+.pasion h3{
+    background-color: #FFFFFF;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    bottom: 0;
+    padding-bottom: 15px;
+    width: 144px;
+    height: 19px;
+}
+.pasion img{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 18.78px;
+    bottom: 0;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
 }
