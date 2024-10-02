@@ -217,3 +217,63 @@ h1{
     padding-bottom: 40px;
     background-color: #FFFFFF;
 }
+.infor_formacion{
+    padding: 82px;
+    gap: 32px;
+    background-color: #EAF2FD;
+    font-family: "Raleway";
+    margin: auto;
+
+}
+.infor_formacion h2{
+    background-color: #EAF2FD;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.formacion div{
+    width: 368px;
+    height: 347px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.formacion img{
+    width: 192px;
+    height: 130px;
+    display: block;
+    background-color: #FFFFFF;
+    position: absolute;
+    transform: translate(45%, 50%);
+}
+.formacion span{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #EAF2FD;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+    padding-top: 20px;
+    
+}
+.formacion{
+    display: flex;
+    gap: 16px;
+    width: 1136px;
+    height: 347px;
+    background-color: #EAF2FD;
+    margin: auto;
+    
+}
+.formacion strong{
+    background-color: #EAF2FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+.infor_experiencia{
+    font-family: "Raleway";
+}
