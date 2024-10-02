@@ -1,0 +1,121 @@
+*{
+    background-color: #F5F5F5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1136px;
+    height: 88px;
+    padding-top: 0px;
+    padding-bottom: 32px;
+    margin: 0 auto 0 auto;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+.estrellas{
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 20px;
+}
+.jhon{
+    font-weight: 700;
+    font-family: "Raleway";
+    font-size: 16px;
+    line-height: 18.78px;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+}
+nav .encabezado_lis{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.encabezado_lis a{
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+#contacto{
+    font-weight: 700;
+}
+.infor_presentacion_mifoto{
+    width: 368px;
+    height: 368px;
+}
+.infor_presentacion{
+    width: 1136px;
+    height: 368px;
+    font-family: "Raleway";
+    margin: auto;
+    display: flex;
+}
+h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61.05px;
+    padding-bottom: 10px;
+}
+.infor_presentacion_cont{
+    width: 751px;
+    height: 246px;
+    gap: 24px;
+}
+.infor_presentacion_cont_text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.83px;
+    padding: 15px 0;
+    justify-content: center;
+}
+.infor_presentacion_cont_link a{
+    width: 467;
+    height: 24px;
+    gap: 32px;
+}
+.infor_sobreMi{
+    background-color: #EAF2FD;
+    width: 100%;
+    height: 383px;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.infor_sobreMi article{
+    width: 1136px;
+    height: 255px;
+    gap: 16px;
+    background-color: #EAF2FD;
+}
+.infor_sobreMi_cont{
+    background-color: #EAF2FD;
+    margin-right: 400px;
+    font-family: "Raleway";
+}
+.infor_sobreMi h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    margin-bottom: 20px;
+}
+.infor_sobreMi p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    padding: 10px 0;
+}

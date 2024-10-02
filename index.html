@@ -4,33 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link rel="stylesheet" href="./archivos/css/reset.css">
+    <link rel="stylesheet" href="./archivos/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="encabezado">
-        <ul class="encabezadoLis">
-            <a href="#"><img src="./archivos/img/estrellas.png" alt="estrellas">Jhon Alexander</a>
-            <a href="#">Sobre mi</a>
-            <a href="#">Skills</a>
-            <a href="#">Hobbies</a>
-            <a href="#">Formación</a>
-            <a href="#">Proyectos</a>
-            <a href="#">Contacto@gmail.com</a>
-        </ul>
-    </nav>
+    <!--Barra de navegacion-->
+    <header>
+        <div class="encabezado">
+            <img class="estrellas" src="./archivos/img/estrellas.png" alt="estrellas">
+            <span class="jhon">Jhon Alexander</span>
+        </div>
+        <nav class="encabezado">
+            <ul class="encabezado_lis">
+                <li><a href="#">Sobre mi</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Hobbies</a></li>
+                <li><a href="#">Formación</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a id="contacto" href="#">Contacto@gmail.com</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--contendido-->
     <section class="infor">
 
         <section class="infor_presentacion">
-            <h1>Hola, mi nombre es Jhon Alexander y construyo paginas web</h1>
-            <p>soy aljkajjdkljasjddjd jsdjda djljd fjf <br/> 
-            <strong><a href="#">Github<img src="./archivos/img/arrow.png" alt="flecha"></a></strong>
-            <strong><a href="#">Linkedin<img src="./archivos/img/arrow.png" alt="flecha"></a></strong>
-            <strong><a href="#">Instagram<img src="./archivos/img/arrow.png" alt="flecha"></a></strong>
-            <strong><a href="#">Currículo<img src="./archivos/img/arrow.png" alt="flecha"></a></strong>
-            </p>
+            <article class="infor_presentacion_cont">
+                <h1>Hola, mi nombre es Jhon Alexander y construyo paginas web</h1>
+                <p class="infor_presentacion_cont_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro doloremque tempora ratione perferendis rem ab asperiores modi odio exercitationem, pariatur iure unde, libero aspernatur molestiae beatae molestias illum soluta? 
+                </p>
+                <section class="infor_presentacion_cont_link">
+                    <a href="#">Github<img src="./archivos/img/arrow.png" alt="flecha"></a>
+                    <a href="#">Linkedin<img src="./archivos/img/arrow.png" alt="flecha"><a>
+                    <a href="#">Instagram<img src="./archivos/img/arrow.png" alt="flecha"><a>
+                    <a href="#">Currículo<img src="./archivos/img/arrow.png" alt="flecha"></a>
+                </section>
+            </article>
+            <img class="infor_presentacion_mifoto" src="./archivos/img/mifoto.png" alt="mifoto">
         </section>
 
         <section class="infor_sobreMi">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ipsum ipsa magnam ea, magni error labore provident quos nemo unde quasi, illum sint dolor assumenda eius enim voluptatem eveniet?</p>
+            <article>
+                <h2 class="infor_sobreMi_cont">Sobre mi</h2>
+                <p class="infor_sobreMi_cont">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ipsum ipsa magnam ea, magni error labore provident quos nemo unde quasi, illum sint dolor assumenda eius enim voluptatem eveniet?</p> 
+                <p class="infor_sobreMi_cont">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ipsum ipsa magnam ea, magni error labore provident quos nemo unde quasi, illum sint dolor assumenda eius enim voluptatem eveniet?</p>     
+            </article>
         </section>
 
         <article class="infor_skills">
@@ -118,8 +140,65 @@
 
         <article class="infor_experiencia">
             <h2>Experiencia profesional</h2>
+            <section class="Info_experiencia_codigosecrteto">
+                <img src="./archivos/img/codigo.png" alt="codigosecreto">
+                <h3>Encriptador de texto</h3>
+                <p>Challenge Alura codificador</p>
+                <a href="#">Repositório</a>
+                <a href="#">Ver demo</a>
+            </section>
+            <section class="Info_experiencia_logica">
+                <h3>Juego creado con HTML y JavaScript</h3>
+                <p>Challenge oracle</p>
+                <a href="#">Repositório</a>
+                <a href="#">Ver demo</a>
+                <img src="./archivos/img/logica.png" alt="">
+            </section>
+            <section class="Info_experiencia_encriptador">
+                <img src="./archivos/img/Encriptador de texto.png" alt="Encriptador">
+                <h3>Encriptador de texto</h3>
+                <p>Challenge oracle</p>
+                <a href="#">Repositório</a>
+                <a href="#">Ver demo</a>
+            </section>
+            <section class="Info_experiencia_juego">
+                <h3>Encriptador de texto</h3>
+                <p>Challenge oracle</p>
+                <a href="#">Repositório</a>
+                <a href="#">Ver demo</a>
+                <img src="./archivos/img/juego.png" alt="juego">
+            </section>
         </article>
-
     </section>
+    <footer>
+        <img src="./archivos/img/telefono.png" alt="telefono">
+        <h2>Contacto</h2>
+        <form id="contacto" name="contacto" method="post">
+            <div class="elemento">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required="true">
+            </div>
+            <div class="elemento">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required="true">
+            </div>
+            <div class="elemento">
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto" required="true">
+            </div>
+            <div class="elemento">
+                <label for="mensaje">Nombre</label>
+                <input type="text" id="mensaje" name="mensaje" required="true">
+            </div>
+            <div class="elemento">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <article>
+            <p>Desarrollado por Jhon Alexander <br> 
+                <strong>2024</strong>
+            </p>
+        </article>
+    </footer>
 </body>
 </html>
