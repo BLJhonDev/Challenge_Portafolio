@@ -277,3 +277,128 @@ h1{
 .infor_experiencia{
     font-family: "Raleway";
 }
+.infor_experiencia h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    padding: 40px 0 10px;
+}
+.Info_experiencia_codigosecreto{
+    display: flex;
+    width: 1136px;
+    height: 406px;
+    gap: 16px;
+    margin: auto;
+    padding: 20px 0;
+}
+.infor_experiencia img{
+    width: 752px;
+    height: 406px;
+}
+.parte2{
+    margin: auto 0;
+    width: 368px;
+    height: 138px;
+    gap: 8px;
+}
+.parte2 h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+.parte2 p{
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    padding-bottom: 29px;
+
+}
+.link1:visited{
+    color: #2A7AE4;
+}
+.link1{
+    border: 1px solid;
+    padding: 16px;
+}
+.link2:visited{
+    color: #FFFFFF;
+}
+.link2{
+    color: #fafafa;
+    background-color: #2A7AE4;
+    border: 1px solid;
+    padding: 16px;
+}
+.Info_experiencia_logica{
+    padding: 20px 0;
+    display: flex;
+    margin: auto;
+    width: 1136px;
+    height: 406px;
+    gap: 16px;
+}
+.cont{
+    width: 1440px;
+    height: 788px;
+    padding: 64px;
+    gap: 10px;
+    margin: auto;
+    background-color: #EAF2FD;
+}
+.cont_ul{
+    display: flex;
+    width: 1136px;
+    height: 660px;
+    padding-top: 64px;
+    gap: 16px;
+    background-color: #EAF2FD;
+}
+.cont img{
+    width: 464px;
+    height: 593px;
+
+}
+.cont_ul_li{
+    width: 656px;
+    height: 596px;
+    gap: 32px;
+    font-family: "Raleway";
+}
+.cont h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    padding-bottom: 10px;
+    background-color: #EAF2FD;
+    color: #464646;
+}
+.cont p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    padding-bottom: 30px;
+    background-color: #EAF2FD;
+    color: #464646;
+}
+footer{
+    width: 1440px;
+    height: 120px;
+    padding: 32px;
+    gap: 10px;
+    margin: auto;
+}
+footer article{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    font-family: "Raleway";
+}
+footer p{
+    text-align: center;
+    padding: 40px 0;
+}
+footer strong{
+    display: inline-block;
+}
