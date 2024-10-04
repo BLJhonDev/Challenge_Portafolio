@@ -11,125 +11,127 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <!--Barra de navegacion-->
-    <header>
-        <div class="encabezado">
-            <img class="estrellas" src="./archivos/img/estrellas.png" alt="estrellas">
-            <span class="jhon">Jhon Alexander</span>
+
+    <header class="encabezado">
+        <div class="encabezado_autor">
+            <img class="encabezado_autor_estrellas" src="./archivos/img/estrellas.png" alt="estrellas">
+            <span class="encabezado_autor_jhon">Jhon Alexander</span>
         </div>
-        <nav class="encabezado">
-            <ul class="encabezado_lis">
-                <li><a href="#">Sobre mi</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Hobbies</a></li>
-                <li><a href="#">Formación</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a id="contacto" href="#">Contacto@gmail.com</a></li>
+        <nav class="navegacion">
+            <ul class="navegacion_lista">
+                <li class="navegacion_lista_sobreMi"><a href="#">Sobre mi</a></li>
+                <li class="navegacion_lista_skills"><a href="#">Skills</a></li>
+                <li class="navegacion_lista_hobbies"><a href="#">Hobbies</a></li>
+                <li class="navegacion_lista_formacion"><a href="#">Formación</a></li>
+                <li class="navegacion_lista_proyectos"><a href="#">Proyectos</a></li>
+                <li class="navegacion_lista_contacto"><a href="#">Contacto@gmail.com</a></li>
             </ul>
         </nav>
     </header>
 
     <!--contendido-->
-    <section class="infor">
 
-        <section class="infor_presentacion">
-            <article class="infor_presentacion_cont">
-                <h1>Hola, mi nombre es Jhon Alexander y construyo paginas web</h1>
-                <p class="infor_presentacion_cont_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro doloremque tempora ratione perferendis rem ab asperiores modi odio exercitationem, pariatur iure unde, libero aspernatur molestiae beatae molestias illum soluta? 
+    <section class="informacion">
+
+        <section class="informacion_presentacion">
+            <article class="informacion_presentacion_contenido">
+                <h1 class="informacion_presentacion_contenido_titulo">Hola, mi nombre es Jhon Alexander y construyo paginas web</h1>
+                <p class="informacion_presentacion_contenido_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro doloremque tempora ratione perferendis rem ab asperiores modi odio exercitationem, pariatur iure unde, libero aspernatur molestiae beatae molestias illum soluta? 
                 </p>
-                <section class="infor_presentacion_cont_link">
-                    <a href="#">Github<img src="./archivos/img/arrow.png" alt="flecha"></a>
-                    <a href="#">Linkedin<img src="./archivos/img/arrow.png" alt="flecha"><a>
-                    <a href="#">Instagram<img src="./archivos/img/arrow.png" alt="flecha"><a>
-                    <a href="#">Currículo<img src="./archivos/img/arrow.png" alt="flecha"></a>
+                <section class="informacion_presentacion_contenido_link">
+                    <a class="informacion_presentacion_contenido_link_github" href="#">Github<img src="./archivos/img/arrow.png" alt="flecha"></a>
+                    <a class="informacion_presentacion_contenido_link_linkedin" href="#">Linkedin<img src="./archivos/img/arrow.png" alt="flecha"><a>
+                    <a class="informacion_presentacion_contenido_link_instagram" href="#">Instagram<img src="./archivos/img/arrow.png" alt="flecha"><a>
+                    <a class="informacion_presentacion_contenido_link_curriculo" href="#">Currículo<img src="./archivos/img/arrow.png" alt="flecha"></a>
                 </section>
             </article>
-            <img class="infor_presentacion_mifoto" src="./archivos/img/mifoto.png" alt="mifoto">
+            <img class="informacion_presentacion_miFoto" src="./archivos/img/mifoto.png" alt="miFoto">
         </section>
 
-        <section class="infor_sobreMi">
+        <section class="informacion_sobreMi">
             <article>
-                <h2 class="infor_sobreMi_cont">Sobre mi</h2>
-                <p class="infor_sobreMi_cont">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ipsum ipsa magnam ea, magni error labore provident quos nemo unde quasi, illum sint dolor assumenda eius enim voluptatem eveniet?</p> 
-                <p class="infor_sobreMi_cont">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ipsum ipsa magnam ea, magni error labore provident quos nemo unde quasi, illum sint dolor assumenda eius enim voluptatem eveniet?</p>     
+                <h2 class="informacion_sobreMi_titulo">Sobre mi</h2>
+                <p class="informacion_sobreMi_texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ipsum ipsa magnam ea, magni error labore provident quos nemo unde quasi, illum sint dolor assumenda eius enim voluptatem eveniet?<br/>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ipsum ipsa magnam ea, magni error labore provident quos nemo unde quasi, illum sint dolor assumenda eius enim voluptatem eveniet?</p>     
             </article>
         </section>
 
-        <article class="infor_skills">
-            <h2>Skills</h2>
-            <div class="skills_lenguajes">
-                <div class="lenguajes">
+        <article class="informacion_skills">
+            <h2 class="informacion_skills_titulo">Skills</h2>
+            <div class="informacion_skills_contenido">
+                <div class="informacion_skills_contenido_lenguajes">
                     <img src="./archivos/img/html.png" alt="Html">
                     <h3>Html 5</h3>
                 </div>
-                <div class="lenguajes">
+                <div class="informacion_skills_contenido_lenguajes">
                     <img src="./archivos/img/javascript.png" alt="JavaScript">
                     <h3>JavaScript</h3>
                 </div>
-                <div class="lenguajes">
+                <div class="informacion_skills_contenido_lenguajes">
                     <img src="./archivos/img/php.png" alt="Php">
                     <h3>Php</h3>
                 </div>
-                <div class="lenguajes">
+                <div class="informacion_skills_contenido_lenguajes">
                     <img src="./archivos/img/node js.png" alt="Node Js">
                     <h3>Node Js</h3>
                 </div>
-                <div class="lenguajes">
+                <div class="informacion_skills_contenido_lenguajes">
                     <img src="./archivos/img/react.png" alt="React">
                     <h3>React</h3>
                 </div>
-                <div class="lenguajes">
+                <div class="informacion_skills_contenido_lenguajes">
                     <img src="./archivos/img/css.png" alt="Css">
                     <h3>Css</h3>
                 </div>
             </div>
         </article>
 
-        <article class="infor_hobbies">
-            <h2>Hobbies</h2>
-            <div class="Hobbies_pasion">
-                <div class="pasion">
+        <article class="informacion_hobbies">
+            <h2 class="informacion_hobbies_titulo">Hobbies</h2>
+            <div class="informacion_hobbies_contenido">
+                <div class="informacion_hobbies_contenido_pasion">
                     <img src="./archivos/img/patinaje.png" alt="patinaje">
                     <h3>Patinaje</h3>
                 </div>
-                <div class="pasion">
+                <div class="informacion_hobbies_contenido_pasion">
                     <img src="./archivos/img/tocar bajo.png" alt="bajo">
                     <h3>Tocar bajo</h3>
                 </div>
-                <div class="pasion">
+                <div class="informacion_hobbies_contenido_pasion">
                     <img src="./archivos/img/musica.png" alt="musica">
                     <h3>Oír música</h3>
                 </div>
-                <div class="pasion">
+                <div class="informacion_hobbies_contenido_pasion">
                     <img src="./archivos/img/tv.png" alt="tv">
                     <h3>Ver series</h3>
                 </div>
-                <div class="pasion">
+                <div class="informacion_hobbies_contenido_pasion">
                     <img src="./archivos/img/cocinar1.png" alt="cocinar">
                     <h3>Cocinar</h3>
                 </div>
-                <div class="pasion">
+                <div class="informacion_hobbies_contenido_pasion">
                     <img src="./archivos/img/foto.png" alt="fotos">
                     <h3>Tomar fotos</h3>
                 </div>
         </article>
 
-        <article class="infor_formacion">
-            <h2>Formacion académica</h2>
-            <div class="formacion">
-                <div class="formacion_uni">
+        <article class="informacion_formacion">
+            <h2 class="informacion_formacion_titulo">Formacion académica</h2>
+            <div class="informacion_formacion_contenido">
+                <div class="informacion_formacion_contenido_estudios">
                     <img src="./archivos/img/universidad.png" alt="universidad">
                     <span>Análisi de datos <br>
                         <strong>2018 - UFRP</strong>
                     </span>
                 </div>
-                <div class="formacion_uni">
+                <div class="informacion_formacion_contenido_estudios">
                     <img src="./archivos/img/alura.png" alt="alura">
                     <span>Análisi de datos <br>
                         <strong>2019 - alura</strong>
                     </span>
                 </div>
-                <div class="formacion_uni">
+                <div class="informacion_formacion_contenido_estudios">
                     <img src="./archivos/img/universidadRio.png" alt="universidadRio">
                     <span>Análisi de datos <br>
                         <strong>En curso - UFRJ</strong>
@@ -138,107 +140,110 @@
             </div>
         </article>
 
-        <article class="infor_experiencia">
-            <h2>Experiencia profesional</h2>
-            <section class="Info_experiencia_codigosecreto">
-                <article class="parte1">
+        <article class="informacion_experiencia">
+            <h2 class="informacion_experiencia_titulo">Experiencia profesional</h2>
+            <section class="infomacion_experiencia_derecha">
+                <article class="informacion_experiencia_derecha_imagen">
                     <img src="./archivos/img/codigo.png" alt="codigosecreto">
                 </article>
-                <article class="parte2">
+                <article class="infomacion_experiencia_derecha_contenido">
                     <h3>Encriptador de texto</h3>
                     <p>Challenge Alura codificador</p>
-                    <a class="link1" href="#">Repositório</a>
-                    <a class="link2" href="#">Ver demo</a>
+                    <a class="infomacion_experiencia_derecha_contenido_link1" href="#">Repositório</a>
+                    <a class="informacion_experiencia_derecha_contenido_link2" href="#">Ver demo</a>
                 </article>
             </section>
-            <section class="Info_experiencia_logica">
-                <section class="parte2">
+            <section class="infomacion_experiencia_izquierda">
+                <section class="infomacion_experiencia_izquierda_contenido">
                     <h3>Juego creado con HTML y JavaScript</h3>
                     <p>Challenge oracle</p>
-                    <a class="link1" href="#">Repositório</a>
-                    <a class="link2" href="#">Ver demo</a>
+                    <a class="infomacion_experiencia_izquierda_link1" href="#">Repositório</a>
+                    <a class="infomacion_experiencia_izquierda_link2" href="#">Ver demo</a>
                 </section>
-                <section class="parte1">
+                <section class="informacion_experiencia_izquierda_imagen">
                     <img src="./archivos/img/logica.png" alt="">
                 </section>
             </section>
-            <section class="Info_experiencia_codigosecreto">
-                <section class="parte1">
+            <section class="infomacion_experiencia_derecha">
+                <section class="informacion_experiencia_derecha_imagen">
                     <img src="./archivos/img/Encriptador de texto.png" alt="Encriptador">
                 </section>
-                <section class="parte2">
+                <section class="infomacion_experiencia_derecha_contenido">
                     <h3>Encriptador de texto</h3>
                     <p>Challenge oracle</p>
-                    <a class="link1" href="#">Repositório</a>
-                    <a class="link2" href="#">Ver demo</a>
+                    <a class="infomacion_experiencia_derecha_contenido_link1" href="#">Repositório</a>
+                    <a class="informacion_experiencia_derecha_contenido_link2" href="#">Ver demo</a>
                 </section>
             </section>
-            <section class="Info_experiencia_logica">
-                <section class="parte2">
+            <section class="infomacion_experiencia_izquieda">
+                <section class="infomacion_experiencia_izquireda_contenido">
                     <h3>Encriptador de texto </h3>
                     <p>Challenge oracle</p>
-                    <a class="link1" href="#">Repositório</a>
-                    <a class="link2" href="#">Ver demo</a>
+                    <a class="infomacion_experiencia_izquierda_link1" href="#">Repositório</a>
+                    <a class="infomacion_experiencia_izquierda_link2" href="#">Ver demo</a>
                 </section>
-                <section class="parte1">
+                <section class="informacion_experiencia_izquierda_imagen">
                     <img src="./archivos/img/juego.png" alt="">
                 </section>
             </section>
         </article>
     </section>
 
-    <!--Pie de la pagina-->
+    <!--contactarnos-->
 
-    <section class="cont">
-        <section class="cont_ul">
+    <section class="contactarnos">
+        <section class="contactarnos_contenido">
             <img src="./archivos/img/telefono.png" alt="telefono">
-            <section class="cont_ul_li">
+            <section class="contactarnos_contenido_formulario">
                 <h2>Contacto</h2>
                 <p>¿Quieres contactarme?
                     Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                 <form id="contacto" name="contacto" method="post">
-                    <div class="elemento">
-                        <div class="elemento_name">
+                    <div class="contactarnos_contenido_formulario_elemento">
+                        <div class="contactarnos_conetnido_formulario_elemento_name">
                             <label for="nombre">Nombre</label>
                         </div>
-                        <div class="elemento_tex">
+                        <div class="contactarnos_conetnido_formulario_elemento_tex">
                             <input type="text" id="nombre" class="bloque" name="nombre" required="true">
                         </div>
                     </div>
-                    <div class="elemento">
-                        <div class="elemento_name">
+                    <div class="contactarnos_contenido_formulario_elemento">
+                        <div class="contactarnos_conetnido_formulario_elemento_name">
                             <label for="email">E-mail</label>
                         </div>
-                        <div class="elemento_tex">
+                        <div class="contactarnos_conetnido_formulario_elemento_tex">
                             <input type="email" id="email" class="bloque" name="email" required="true">
                         </div>
 
                     </div>
-                    <div class="elemento">
-                        <div class="elemento_name">
+                    <div class="contactarnos_contenido_formulario_elemento">
+                        <div class="contactarnos_conetnido_formulario_elemento_name">
                             <label for="asunto">Asunto</label>
                         </div>
-                        <div class="elemento_tex">
+                        <div class="contactarnos_conetnido_formulario_elemento_tex">
                             <input type="text" id="asunto" class="bloque" name="asunto" required="true">
                         </div>
                     </div>
-                    <div class="elemento" id="men">
-                        <div class="elemento_name">
+                    <div class="contactarnos_contenido_formulario_elemento" id="men">
+                        <div class="contactarnos_conetnido_formulario_elemento_name">
                             <label for="mensaje">Mensaje</label>
                         </div>
-                        <div class="elemento_tex" id="bloqueM">
+                        <div class="contactarnos_conetnido_formulario_elemento_tex" id="bloqueM">
                             <input type="text" id="mensaje" class="bloque" name="mensaje" required="true">
                         </div>
                     </div>
-                    <div id="boton" class="elemento">
+                    <div class="contactarnos_contenido_formulario_elemento" id="boton">
                         <input type="submit" value="Enviar">
                     </div>
                 </form>
             </section>
         </section>
     </section>
-    <footer>
-        <article>
+
+    <!--pie de la pagina-->
+
+    <footer class="derechos">
+        <article class="derechos_autor">
             <p>Desarrollado por Jhon Alexander <br> 
                 <strong>2024</strong>
             </p>
