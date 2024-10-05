@@ -2,7 +2,9 @@
     background-color: #F5F5F5;
 }
 
-header{
+/**Encabezado**/
+
+.encabezado{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,6 +17,7 @@ header{
 a{
     outline: none;
     text-decoration: none;
+    color: black;
 }
 a:active{
     color: black;
@@ -22,42 +25,45 @@ a:active{
 a:visited{
     color: black;
 }
-.estrellas{
+.encabezado_navegacion_estrellas{
     width: 24px;
     height: 24px;
     float: left;
     margin-right: 20px;
 }
-.jhon{
+.encabezado_navegacion_jhon{
     font-weight: 700;
     font-family: "Raleway";
     font-size: 16px;
     line-height: 18.78px;
 }
-.encabezado{
+.encabezado_navegacion{
     display: flex;
     align-items: center;
 }
-nav .encabezado_lis{
+.encabezado_navegacion_lista{
     list-style: none;
     display: flex;
     gap: 24px;
 }
-.encabezado_lis a{
+.encabezado_navegacion_lista a{
     text-decoration: none;
     font-family: "Raleway";
     font-weight: 500;
     font-size: 16px;
     line-height: 18.78px;
 }
-#contacto{
+.encabezado_navegacion_lista_contacto a{
     font-weight: 700;
 }
-.infor_presentacion_mifoto{
+
+/**Contenido**/
+
+.informacion_presentacion_miFoto{
     width: 368px;
     height: 368px;
 }
-.infor_presentacion{
+.informacion_presentacion{
     width: 1136px;
     height: 368px;
     font-family: "Raleway";
@@ -70,24 +76,27 @@ h1{
     line-height: 61.05px;
     padding-bottom: 10px;
 }
-.infor_presentacion_cont{
+.informacion_presentacion_contenido{
     width: 751px;
     height: 246px;
     gap: 24px;
 }
-.infor_presentacion_cont_text{
+.informacion_presentacion_contenido_texto{
     font-weight: 400;
     font-size: 22px;
     line-height: 25.83px;
     padding: 15px 0;
     justify-content: center;
 }
-.infor_presentacion_cont_link a{
+.informacion_presentacion_contenido_link a{
     width: 467;
     height: 24px;
     gap: 32px;
 }
-.infor_sobreMi{
+
+/**Informacion sobre Mi**/
+
+.informacion_sobreMi{
     background-color: #EAF2FD;
     width: 100%;
     height: 383px;
@@ -97,34 +106,36 @@ h1{
     justify-content: center;
     margin-bottom: 80px;
 }
-.infor_sobreMi article{
+.informacion_sobreMi_contenido{
     width: 1136px;
     height: 255px;
     gap: 16px;
     background-color: #EAF2FD;
 }
-.infor_sobreMi_cont{
+.informacion_sobreMi_contenido_titulo{
     background-color: #EAF2FD;
     margin-right: 400px;
     font-family: "Raleway";
-}
-.infor_sobreMi h2{
     font-weight: 700;
     font-size: 32px;
     line-height: 37.57px;
     margin-bottom: 20px;
 }
-.infor_sobreMi p{
+.informacion_sobreMi_contenido_texto{
     font-weight: 400;
     font-size: 16px;
     line-height: 18.78px;
     padding: 10px 0;
     font-family: "Raleway";
+    background-color: #EAF2FD;
 }
-.infor_skills{
+
+/**Mis conocimientos**/
+
+.informacion_skills{
     font-family: "Raleway";
 }
-.infor_skills h2{
+.informacion_skills_titulo{
     justify-content: center;
     text-align: center;
     font-weight: 700;
@@ -133,7 +144,7 @@ h1{
     margin-bottom: 40px;
 
 }
-.skills_lenguajes{
+.informacion_skills_contenido{
     width: 1136px;
     height: 244px;
     gap: 8px;
@@ -141,14 +152,14 @@ h1{
     margin: auto;
 
 }
-.lenguajes{
+.informacion_skills_contenido_lenguajes{
     background-color: #FFFFFF;
     width: 176px;
     height: 174px;
     padding: 16px;
     position: relative;
 }
-.lenguajes h3{
+.informacion_skills_contenido_lenguajes h3{
     background-color: #FFFFFF;
     position: absolute;
     font-size: 16px;
@@ -159,7 +170,7 @@ h1{
     width: 144px;
     height: 19px;
 }
-.lenguajes img{
+.informacion_skills_contenido_lenguajes img{
     position: absolute;
     font-size: 32px;
     font-weight: 400;
@@ -169,11 +180,12 @@ h1{
     background-color: #FFFFFF;
 }
 
+/**Mis hobbies**/
 
-.infor_hobbies{
+.informacion_hobbies{
     font-family: "Raleway";
 }
-.infor_hobbies h2{
+.informacion_hobbies_titulo{
     justify-content: center;
     text-align: center;
     font-weight: 700;
@@ -182,7 +194,7 @@ h1{
     margin-bottom: 40px;
 
 }
-.Hobbies_pasion{
+.informacion_hobbies_contenido{
     width: 1136px;
     height: 244px;
     gap: 8px;
@@ -190,14 +202,14 @@ h1{
     margin: auto;
 
 }
-.pasion{
+.informacion_hobbies_contenido_pasion{
     background-color: #FFFFFF;
     width: 176px;
     height: 174px;
     padding: 16px;
     position: relative;
 }
-.pasion h3{
+.informacion_hobbies_contenido_pasion h3{
     background-color: #FFFFFF;
     position: absolute;
     font-size: 16px;
@@ -208,7 +220,7 @@ h1{
     width: 144px;
     height: 19px;
 }
-.pasion img{
+.informacion_hobbies_contenido_pasion img{
     position: absolute;
     font-size: 32px;
     font-weight: 400;
@@ -217,7 +229,10 @@ h1{
     padding-bottom: 40px;
     background-color: #FFFFFF;
 }
-.infor_formacion{
+
+/**Mi formacion**/
+
+.informacion_formacion{
     padding: 82px;
     gap: 32px;
     background-color: #EAF2FD;
@@ -225,7 +240,7 @@ h1{
     margin: auto;
 
 }
-.infor_formacion h2{
+.informacion_formacion_titulo{
     background-color: #EAF2FD;
     font-weight: 700;
     font-size: 32px;
@@ -233,13 +248,13 @@ h1{
     text-align: center;
     padding-bottom: 30px;
 }
-.formacion div{
+.informacion_formacion_contenido div{
     width: 368px;
     height: 347px;
     background-color: #FFFFFF;
     position: relative;
 }
-.formacion img{
+.informacion_formacion_contenido img{
     width: 192px;
     height: 130px;
     display: block;
@@ -247,7 +262,7 @@ h1{
     position: absolute;
     transform: translate(45%, 50%);
 }
-.formacion span{
+.informacion_formacion_contenido span{
     display: block;
     position: absolute;
     bottom: 0;
@@ -259,7 +274,7 @@ h1{
     padding-top: 20px;
     
 }
-.formacion{
+.informacion_formacion_contenido{
     display: flex;
     gap: 16px;
     width: 1136px;
@@ -268,23 +283,26 @@ h1{
     margin: auto;
     
 }
-.formacion strong{
+.informacion_formacion strong{
     background-color: #EAF2FD;
     font-weight: 500;
     font-size: 16px;
     line-height: 18.78px;
 }
-.infor_experiencia{
+
+/**Mi experiencia**/
+
+.informacion_experiencia{
     font-family: "Raleway";
 }
-.infor_experiencia h2{
+.informacion_experiencia_titulo{
     text-align: center;
     font-weight: 700;
     font-size: 32px;
     line-height: 37.57px;
     padding: 40px 0 10px;
 }
-.Info_experiencia_codigosecreto{
+.infomacion_experiencia_derecha{
     display: flex;
     width: 1136px;
     height: 406px;
@@ -292,22 +310,22 @@ h1{
     margin: auto;
     padding: 20px 0;
 }
-.infor_experiencia img{
+.informacion_experiencia img{
     width: 752px;
     height: 406px;
 }
-.parte2{
+.infomacion_experiencia_derecha_contenido, .infomacion_experiencia_izquierda_contenido{
     margin: auto 0;
     width: 368px;
     height: 138px;
     gap: 8px;
 }
-.parte2 h3{
+.infomacion_experiencia_derecha_contenido h3, .infomacion_experiencia_izquierda_contenido h3{
     font-weight: 700;
     font-size: 22px;
     line-height: 25.83px;
 }
-.parte2 p{
+.infomacion_experiencia_derecha_contenido p, .infomacion_experiencia_izquierda_contenido p{
     padding: 5px 0;
     font-size: 16px;
     font-weight: 500;
@@ -315,23 +333,23 @@ h1{
     padding-bottom: 29px;
 
 }
-.link1:visited{
+.infomacion_experiencia_derecha_contenido_link1, .infomacion_experiencia_izquierda_link1:visited{
     color: #2A7AE4;
 }
-.link1{
+.infomacion_experiencia_derecha_contenido_link1, .infomacion_experiencia_izquierda_link1{
     border: 1px solid;
     padding: 16px;
 }
-.link2:visited{
+.informacion_experiencia_derecha_contenido_link2, .infomacion_experiencia_izquierda_link2:visited{
     color: #FFFFFF;
 }
-.link2{
+.informacion_experiencia_derecha_contenido_link2, .infomacion_experiencia_izquierda_link2{
     color: #fafafa;
     background-color: #2A7AE4;
     border: 1px solid;
     padding: 16px;
 }
-.Info_experiencia_logica{
+.infomacion_experiencia_izquierda{
     padding: 20px 0;
     display: flex;
     margin: auto;
@@ -339,7 +357,10 @@ h1{
     height: 406px;
     gap: 16px;
 }
-.cont{
+
+/**contacto**/
+
+.contactarnos{
     width: 1440px;
     height: 788px;
     padding: 64px;
@@ -347,7 +368,7 @@ h1{
     margin: auto;
     background-color: #EAF2FD;
 }
-.cont_ul{
+.contactarnos_contenido{
     display: flex;
     width: 1136px;
     height: 660px;
@@ -355,18 +376,18 @@ h1{
     gap: 16px;
     background-color: #EAF2FD;
 }
-.cont img{
+.contactarnos_contenido img{
     width: 464px;
     height: 593px;
 
 }
-.cont_ul_li{
+.contactarnos_contenido_formulario{
     width: 656px;
     height: 596px;
     gap: 32px;
     font-family: "Raleway";
 }
-.cont h2{
+.contactarnos h2{
     font-weight: 700;
     font-size: 32px;
     line-height: 37.57px;
@@ -374,7 +395,7 @@ h1{
     background-color: #EAF2FD;
     color: #464646;
 }
-.cont p{
+.contactarnos p{
     font-weight: 500;
     font-size: 16px;
     line-height: 18.78px;
@@ -382,46 +403,27 @@ h1{
     background-color: #EAF2FD;
     color: #464646;
 }
-footer{
-    width: 1440px;
-    height: 120px;
-    padding: 32px;
-    gap: 10px;
-    margin: auto;
-}
-footer article{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 18.78px;
-    font-family: "Raleway";
-}
-footer p{
-    text-align: center;
-    padding: 40px 0;
-}
-footer strong{
-    display: inline-block;
-}
 #contacto{
     width: 656px;
     height: 397px;
     gap: 32px;
     font-family: "Raleway";
 }
-.elemento{
+.contactarnos_contenido_formulario_elemento{
     width: 656px;
     height: 86px;
     padding: 5px;
     background-color: #EAF2FD;
 }
-.elemento_name{
+.contactarnos_conetnido_formulario_elemento_name{
     width: 656px;
     height: 40px;
     gap: 4px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding: 5px;
 }
-.bloque{
+.contactarnos_conetnido_formulario_elemento_tex input{
     width: 100%;
     height: 20px;
     gap: 4px;
@@ -439,7 +441,7 @@ footer strong{
     font-weight: 400;
     color: #A2A2A2;
 }
-.bloque:focus{
+.contactarnos_conetnido_formulario_elemento_tex input:focus{
     border-bottom: 2px solid #2A7AE4;
 }
 #men{
@@ -454,4 +456,32 @@ footer strong{
     background-color: #2A7AE4;
     color: #FFFFFF;
     border: none;
+    
+}
+#boton input[type="submit"]{
+    font-size: 18px;
+    font-family: "Raleway";
+}
+.derechos{
+    width: 1440px;
+    height: 120px;
+    padding: 32px;
+    gap: 10px;
+    margin: auto;
+}
+
+/**Pie de pagina**/
+
+.derechos_autor{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+    font-family: "Raleway";
+}
+.derechos_autor p{
+    text-align: center;
+    padding: 40px 0;
+}
+.derechos_autor strong{
+    display: inline-block;
 }
